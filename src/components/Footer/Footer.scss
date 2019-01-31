@@ -1,0 +1,10 @@
+// Footer component custom styles
+@import '../../utils/Variables.scss';
+
+Footer{
+      .footer-inner{
+            text-align: center;
+            padding: 50px 0;
+            border-top: 1px solid #ccc;
+      }
+}

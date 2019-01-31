@@ -1,0 +1,18 @@
+// Video Section component custom styles
+@import '../../utils/Variables.scss';
+
+.video-section{
+      padding-top: 150px;
+      padding-bottom: 150px;
+      background-color: $light;
+      @media screen and (max-width: $break-small){
+          padding-top: 150px;
+          padding-bottom: 1500px;
+      }
+      iframe{
+            width: calc((100vw - 1440px) * (24 - 560) / (2560 - 1440) + 560px);
+            height: calc((100vw - 1440px) * (24 - 315) / (2560 - 1440) + 315px);
+            margin: 0px auto;
+            display: block;
+      }
+}
