@@ -2,7 +2,7 @@ import React from 'react';
 import { VerticleButton as ScrollUpButton } from "react-scroll-up-button";
 import Navigation from '../../components/Navigation/Navigation';
 import Footer from '../../components/Footer/Footer';
-import Aux from '../../hoc/Aux'
+import Aux from '../../hoc/Auxiliary'
 
 import 'bootstrap/scss/bootstrap.scss';
 

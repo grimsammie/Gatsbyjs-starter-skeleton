@@ -4,7 +4,7 @@ import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } f
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Aux from '../../hoc/Aux'
+import Aux from '../../hoc/Auxiliary'
 
 import './Navigation.scss';
 
