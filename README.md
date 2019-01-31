@@ -3,7 +3,7 @@
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
-  <a href="https://www.gatsbyjs.org">
+  <a href="https://github.com/shal0mdave/Gatsbyjs-starter-skeleton/raw/master/src/assets/img/screenshot.png">
     <img alt="Gatsbyjs Starter Skeleton" src="https://github.com/shal0mdave/Gatsbyjs-starter-skeleton/raw/master/src/assets/img/screenshot.png"  />
   </a>  
 </p>
