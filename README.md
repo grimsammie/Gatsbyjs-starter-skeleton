@@ -4,28 +4,37 @@
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
   <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsbyjs Starter Skeleton" src="assets/img/screenshot.png" width="60" />
+    <img alt="Gatsbyjs Starter Skeleton" src="https://github.com/shal0mdave/Gatsbyjs-starter-skeleton/raw/master/src/assets/img/screenshot.png"  />
   </a>  
 </p>
 <br />
 <h1 align="center">Hit the ground running.</h1>
 <h2 align="center">
-  A Gatsbyjs boilerplate with node-sass, Bootstrap 4, Page Scroll, FontAwesome & Google Fonts preset with standard folder structuring for rapid development process. 
+  A Gatsbyjs boilerplate with node-sass, Bootstrap 4, Anchor Smooth Scroll, FontAwesome & Google Fonts preset with standard <b>React Project Folder Structure</b> for rapid development process. 
 </h2>
-
-
-
-<!-- _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._ -->
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Clone Gatsbyjs Starter Skeleton Repository.**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+    Use the CLI to clone, specifying the gatsbyjs skeleton starter.
 
     ```sh
-    # create a new Gatsby site using the default starter
-    npx gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    # Clone Gatsbyjs Starter skeleton
+    https://github.com/shal0mdave/Gatsbyjs-starter-skeleton.git
+    ```
+
+1.  **Install packages.**
+
+    Navigate into your new site’s directory and start it up.
+
+    ```sh
+    cd Gatsbyjs-starter-skeleton/
+    npm install
+    ```
+    <b>Or</b>
+    ```sh
+    yarn install
     ```
 
 1.  **Start developing.**
@@ -33,7 +42,7 @@
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd my-default-starter/
+    cd Gatsbyjs-starter-skeleton/
     gatsby develop
     ```
 
@@ -47,11 +56,16 @@
 
 ## 🧐 What's inside?
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+A quick look at the top-level files and directories you'll see in the Gatsby starter skeleton project.
 
     .
     ├── node_modules
     ├── src
+    |   ├─ assets
+    |   ├─ components
+    |   ├─ hoc
+    |   ├─ pages
+    |   ├─ utils
     ├── .gitignore
     ├── .prettierrc
     ├── gatsby-browser.js
@@ -66,6 +80,16 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
 2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+
+    2.1. **`assets`**: This directory contains all the static assets of the project like images, local fonts, lightweight videos, css and even javascript files go here.
+
+    2.2. **`components`**: This directory contains all the react components; both the ones that are speccific to a single page and the ones that can be used globally on all the pages on the site.
+
+    2.3. **`hoc`**: This directory contains all the higher order react components that you may wish to wrap other components of your applicatiion around. It contains an <b>Auxiliary</b> component built by me to bypass using empty div tags to wrap your components as this may sometimes affect your application's styling.
+
+    2.4. **`pages`**: This directory contains all page components that are rendered to the browser and the 404 component in case the user hits a bad or nonexistent route.
+
+    2.5. **`utils`**: This directory contains all the little chunks of code that are reused throughout the pages components like layout file and Sass variable file.
 
 3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
